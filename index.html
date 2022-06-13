@@ -66,7 +66,7 @@
                 <a
                   href="https://vyacheslavrus.github.io/goit-js-project-forca/"
                   class="my-projects-link"
-                  >Weather <span class="color"
+                  >Weather<span class="color"
                     >example</span
                   >
                 </a>
@@ -197,6 +197,27 @@
           <div class="my-education-block">
             <h4 class="my-profession">Russian — native speaker</h4>
             <h4 class="my-profession">English — elementary</h4>
+          </div>
+        </div>
+
+        <div class="my-education-section">
+          <h3 class="main-content-title">Code example</h3>
+
+          <!--University-->
+          <div class="my-education-block">
+            <pre>
+              <code>
+                export function DoctorEmployee({ doctor }) {
+                  function convertDate(inputFormat) {
+                    function pad(s) {
+                      return s < 10 ? "0" + s : s;
+                    }
+                    var d = new Date(inputFormat);
+                    return [pad(d.getDate()), pad(d.getMonth() + 1), d.getFullYear()].join("-");
+                  }
+                }
+              </code>
+          </pre>
           </div>
         </div>
 
