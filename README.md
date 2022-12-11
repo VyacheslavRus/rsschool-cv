@@ -1,1 +1,1 @@
-1 https://vyacheslavrus.github.io/rsschool-cv/cv
+1 https://vyacheslavrus.github.io/rsschool-cv/index
